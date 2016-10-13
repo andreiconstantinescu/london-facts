@@ -1,0 +1,26 @@
+{
+  "name": "london-facts",
+  "version": "1.0.0",
+  "description": "Alexa skill that give you a fact about London.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreiconstantinescu/london-facts.git"
+  },
+  "keywords": [
+    "Alexa",
+    "nodjs"
+  ],
+  "author": "Andrei Constantinescu <andrei@constantinescu.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreiconstantinescu/london-facts/issues"
+  },
+  "homepage": "https://github.com/andreiconstantinescu/london-facts#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  }
+}
