@@ -15,7 +15,7 @@ const handlers = {
   },
 
   GetFact () {
-    const randomFact = FACTS[_.random(FACTS.length)]
+    const randomFact = FACTS[_.random(FACTS.length - 1)]
 
     var speechOutput = `Here's your fact about London: ${randomFact}`
 
